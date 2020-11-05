@@ -57,6 +57,15 @@ body {
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--grey-light-2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .content {
@@ -82,11 +91,28 @@ body {
 
 .logo {
   height: 3.25rem;
+  background-color: lightgreen;
+  margin-left: 3rem;
+}
+
+.search {
+  background-color: lightcoral;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+}
+
+.search__input {
+  font-family: inherit;
 }
 
 .search__icon {
   height: 2rem;
   width: 2rem;
+}
+
+.user-nav {
+  background-color: lightcyan;
 }
 
 .user-nav__icon {
@@ -98,3 +124,4 @@ body {
   height: 3.75rem;
   border-radius: 50%;
 }
+/*# sourceMappingURL=main.css.map */

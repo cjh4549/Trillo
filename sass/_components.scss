@@ -2,6 +2,8 @@
 
 .logo {
     height: 3.25rem;
+    background-color: lightgreen;
+    margin-left: 3rem;
 }
 
 //
@@ -9,9 +11,11 @@
 //search
 
 .search {
+    background-color: lightcoral;
+    flex: 0 0 40%;
 
     &__input {
-
+        font-family: inherit;
     }
 
     &__button {
@@ -29,6 +33,8 @@
 //user nav
 
 .user-nav {
+
+    background-color: lightcyan;
 
     &__icon-box {
 
